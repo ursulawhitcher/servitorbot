@@ -8,7 +8,7 @@ from discord.ext import commands
 #insert the token for your Discord app here
 TOKEN = ''
 
-# @servitor-bot to send a command
+# @servitor-bot (or whatever your bot is named) to send a command
 bot = commands.Bot(command_prefix=commands.when_mentioned)
 
 #test: returns "flashing lights affirmatively"
